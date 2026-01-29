@@ -1,12 +1,3 @@
--- 1.Hər bir müştərinin ümumi sifariş sayini tapın
--- 2.Yalnız ümumi sifarisleri  5000-dən çox olan müştəriləri göstər
--- 3.Hər sifariş üçün məhsulların ümumi qiymətini (Quantity × UnitPrice) hesablayın və sifarişin TotalAmount ilə müqayisə edin
--- 4.Hər məhsul kateqoriyası üzrə satılan toplam məhsul sayı və toplam satış məbləğini tapın
--- 5.Hər müştərinin ən çox sifariş etdiyi məhsul kateqoriyasını tapın
--- 6.Bu tapşırıqların nəticələrini istifadə edərək bir VIEW yaradın, CustomerOrderSummary, VIEW aşağıdakı məlumatları saxlamalıdır
-
-alter login sa enable;
-alter login sa with password = 'YeniParol123!';
 
 create database ecommercesDB;
 
